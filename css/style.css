@@ -1,0 +1,408 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.form_block{
+    margin-left: 200px !important;
+    margin-top: 30px;
+}
+.img{
+    width: 20px !important;
+    margin-top: -2px;
+}
+header{
+    background: url('../img/image.jpg') center / cover  fixed;
+    width: 100% !important;
+    height: 100vh;
+    position: relative;
+}
+.navigation{
+    background: linear-gradient(45deg, rgba(0, 0, 0.10, 0.61), rgba(0, 0, 0, 0.5) 100%);
+    width: 100% !important;
+    height: 100vh;
+    position: absolute;
+}
+ul li a{
+    margin-left: 25px;
+    color: white !important;
+    font-size: 20px !important;
+    margin-top: 34px;
+}
+ul{
+    margin-left: 200px;
+}
+.navbar-brand{
+    margin-left: 60px;
+    margin-top: 30px;
+    color: white;
+    font-size: 30px !important;
+}
+.navbar-brand:hover{
+    color: rgb(44, 233, 123);
+}
+ul li a:hover{
+    color:  rgb(44, 233, 123) !important;
+    transition: 0.5s;
+}
+.text_block{
+    color: white !important;
+    margin-top: 180px;
+    margin-left: 250px;
+}
+.boimg{
+    width: 55px !important;
+    height: 55px;
+    margin-left: 70px;
+    margin-top:20px;
+}
+.title_text h6{
+    background: rgba(231, 231, 231, 0.2) !important;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 7px 14px 10px;
+    color: #fff;
+}
+section{
+    background: url('../img/img2.jpg')  center / cover no-repeat fixed;
+    width: 100%;
+    height: 550px !important;
+    padding-bottom: 50px;
+}
+.paralax{
+    background: linear-gradient(45deg, rgba(0, 0, 0.10, 0.61), rgba(0, 0, 0, 0.5) 100%);
+    width: 100%;
+    height: 550px;
+    padding-bottom: 50px;
+}
+.cl-1{
+    height: 110px !important;
+    width: 120px !important;
+    margin-left: 20px;
+}
+.mycarousell{
+    background-color: #fff;
+    padding: 18px 0px;
+}
+.myBtn{
+    color: cadetblue !important;
+    margin-top:-25px;
+    margin-left: -10px !important;
+}
+.line{
+    border: 0.2px solid rgb(44, 44, 44);
+}
+.paralax2 h6{
+    background: rgba(235, 129, 30, 0.5) !important;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 7px 14px 10px;
+    color: #fff;
+}
+.paralax2{
+    background-color: #ece6de;
+    padding-bottom: 100px;
+}
+
+.main_block{
+    background: url('../img/paralax3.jpg') center / cover no-repeat fixed;
+    width: 100%;
+    height: 500px !important;
+    margin-bottom: 50px;
+}
+.paralax3{
+    background: linear-gradient(45deg, rgba(0, 0, 0.10, 0.71), rgba(0, 0, 0, 0.7) 100%);
+    width: 100%;
+    height: 500px;
+}
+.textPx3{
+    color: #fff
+}
+.sign_up h6{
+    background: rgba(235, 129, 30, 0.5) !important;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 7px 14px 10px;
+    color: #fff;
+}
+.p3input{
+    width: 580px !important;
+    height: 45px !important;
+    margin-left: 470px;
+    margin-top: 40px;
+    border: 3px solid rgb(221, 205, 156) !important;
+}
+.form_img{
+    margin-left: 520px !important;
+    margin-top: -70px;
+}
+.footer{
+    background: url('../img/Book\ Shelves.jpg') center / cover fixed;
+    width: 100%;
+    height: 550px !important;
+}
+.footer_block{
+    background: linear-gradient(45deg, rgba(0, 0, 0.10, 0.51), rgba(0, 0, 0, 0.7) 100%);
+    width: 100%;
+    height: 550px;
+
+}
+.contact{
+    width: 380px;
+    height: 330px;
+    background: rgba(179, 137, 90, 0.747);
+    justify-content: center;
+    margin-left: 330px;
+}
+.footer_img{
+    margin-left: 70px;
+    padding-top: 30px;
+}
+.cont_crea{
+    width: 180px;
+    margin-left: 100px !important;
+}
+.cont_crea h6{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+.hover:hover{
+    color: rgb(241, 171, 65) !important;
+}
+.links{
+    display: inline-flex;
+}
+.links a {
+    font-size: 40px;
+    line-height: 40px;
+}
+.bookText{
+    font-size: 20px;
+    color: white;
+    width: 900px; 
+    margin-left: 300px; 
+    text-align: center;
+    margin-top: 30px;
+} 
+.book_block img{
+    width: 100%;
+    height:480px;
+    margin-top: 30px;
+}   
+.img_style img{
+    width: 100%;
+    height: 90%;
+    margin-top: 20px;
+}
+.book_block p {
+    margin-top: 30px;
+}
+
+
+@media screen and (max-width: 994px){
+    .bookText{
+       width: 800px;
+    }
+}
+@media screen and (max-width: 941px){
+    .bookText{
+        width: 700px;
+        margin-left: 100px
+    }
+}
+@media screen and (max-width: 840px){
+    .bookText{
+        width: 500px;
+        margin-left: 180px
+    }
+    .p3input{
+        margin-left: 100px;
+    }
+    
+}
+@media screen and (max-width: 700px){
+    .bookText{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 1250px){
+    .bookText{
+        margin-left: 120px
+    }
+    .text_block{
+        margin-left: 20px;
+        text-align: center !important;
+    }
+    .form_img{
+        margin-left: 200px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .text_block{
+        text-align: center;
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width: 596px){
+    .text_block{
+        font-size: 40px !important;
+    }
+    .bookText{
+        margin-left: 100px
+    }
+}
+@media screen and (max-width: 991px){
+    .boimg{
+        margin-left: 280px;
+        margin-bottom: 25px;
+    }
+    .contact{
+        margin-left: 150px;
+    }
+    .mycarousell{
+        height: 200px;
+    }
+    .img_style img{
+        width: 200px;
+        height: 250px;
+        margin-left: 220px;
+    }
+    .book_block img{
+        width: 250px;
+        height: 400px;
+        margin-left: 200px;
+    }
+    .p3input{
+        margin-left: 150px;
+    }
+    .book_block p{
+        width: 400px;
+        text-align: center;
+        margin-left: 120px;
+        margin-top: 20px;
+    }
+    .carousell_block{
+        padding-bottom: 100px;
+        margin-bottom: 100px;
+    }
+    .paralax3{
+        height: 600px;
+    }
+    .main_block{
+        height: 600px !important;
+    }
+    section{
+        height: 650px !important;
+    }
+    .paralax{
+        height: 650px;
+    }
+}
+@media screen and (max-width: 516px){
+    .bookText{
+        font-size: 17px;
+        width: 300px;
+        margin-left: 120px;
+    }
+    .contact{
+        margin-left: 20px !important;
+    }
+    .p3input{
+        margin-left: 60px !important;
+        width: 400px !important;
+    }
+}
+@media screen and (max-width: 446px){
+    .bookText{
+        font-size: 17px;
+        width: 280px;
+        margin-left: 70px;
+    }
+    .boimg{
+        margin-left: 120px !important;
+    }
+}
+@media screen and (max-width: 370px){
+    .bookText{
+        font-size: 17px;
+        width: 250px;
+        margin-left: 40px;
+    }
+}
+@media screen and (max-width: 770px){
+    .boimg{
+        margin-left: 200px;
+    }
+    .contact{
+        margin-left: 100px;
+    }
+    .book_block img{
+        margin-left: 120px;
+    }
+    .book_block p{
+        margin-left: 50px !important;
+    }
+    .img_style img{
+        margin-left: 150px;
+    }
+    .p3input{
+        margin-left: 90px !important;
+    }
+    .mycarousell {
+        height: 350px;
+        padding: 20px;
+    }
+    .number{
+        margin-left: 300px;
+        margin-top: -240px;
+    }
+}
+@media screen and (max-width: 680px){
+    .p3input{
+        margin-left: 110px !important;
+        width: 450px !important;
+    }
+}
+@media screen and (max-width: 560px){
+    .p3input{
+        margin-left: 80px !important;
+        width: 400px !important;
+    }
+}
+@media screen and (max-width: 500px){
+    .p3input{
+        margin-left: 50px !important;
+        width: 400px !important;
+    }
+}
+@media screen and (max-width: 470px){
+    .p3input{
+        margin-left: 20px !important;
+        width: 400px !important;
+    }
+    .book_block p {
+        width: 280px;
+        margin-right: 50px !important;
+    }
+}
+@media screen and (max-width: 411px){
+    .p3input{
+        margin-left: 20px !important;
+        width: 300px !important;
+    }
+    .book_block img{
+        margin-left: 30px;
+    }
+    .book_block p{
+        margin-left: 10px !important;
+    }
+    .img_style img{
+        margin-left: 50px;
+    }
+    .contact{
+        width: 300px;
+    }
+    .cont_crea{
+        margin-left: 60px !important;
+    }
+}

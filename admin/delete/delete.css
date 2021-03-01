@@ -1,0 +1,81 @@
+body{
+    background: url('/img/bgb.jpg') center / cover;
+    width: 100%;
+    height: 100vh;
+}
+section{
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.8) 100%);
+    width: 100%;
+    height: 2800px;
+}
+/* Navigation */
+.nav{
+    background: url('/img/book2.jpg') center / cover;
+    width: 100%;
+    height: 70px;
+}
+.navigation{
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.8) 100%);
+    width: 100%;
+    height: 70px;
+}
+.navbar-nav{
+    margin-left: 550px;
+    margin-top: -20px;
+}
+.nav-link{
+    margin-left: 30px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.nav-link:hover{
+    color: #df9637;
+    transition: 0.4s;
+}
+.Btnlink{
+    color: #ffffff !important;
+    font-size: 20px;
+    margin-top: -3px;
+}
+.Btnlink:hover{
+    text-decoration: none;
+    color: #df9637 !important;
+}
+.myLink{
+    margin-left: 700px;
+    margin-top: 20px;
+}
+.imgStyle{
+    width: 100%;
+    height: 300px;
+    
+}
+@media screen and (max-width: 1200px){
+    section{
+        height: 3750px;
+    }
+}
+@media screen and (max-width: 990px){
+    section{
+        height: 372em;
+    }
+}
+@media screen and (max-width: 575px){
+    section{
+        height: 690em;
+    }
+    .mycard{
+        margin-left: 120px;
+    }
+}
+@media screen and (max-width: 990px){
+    .nav{
+        height: 200px;
+    }
+    .navigation{
+        height: 200px;
+    }
+    .navbar-nav{
+        margin-left: 100px;
+    }
+}
